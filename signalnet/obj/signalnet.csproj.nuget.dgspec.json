@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/admintdp/learning_dotnet/signaldemo/signalnet/signalnet.csproj": {}
+  },
+  "projects": {
+    "/home/admintdp/learning_dotnet/signaldemo/signalnet/signalnet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/admintdp/learning_dotnet/signaldemo/signalnet/signalnet.csproj",
+        "projectName": "signalnet",
+        "projectPath": "/home/admintdp/learning_dotnet/signaldemo/signalnet/signalnet.csproj",
+        "packagesPath": "/home/admintdp/.nuget/packages/",
+        "outputPath": "/home/admintdp/learning_dotnet/signaldemo/signalnet/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/admintdp/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/share/dotnet/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNet.SignalR": {
+              "target": "Package",
+              "version": "[2.4.3, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.9, 7.0.9]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[7.0.9, 7.0.9]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.9, 7.0.9]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
